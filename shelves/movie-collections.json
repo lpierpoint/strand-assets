@@ -1,505 +1,1165 @@
 [
   {
-    "id" : "7A66880D-C08F-4EE3-ADDD-2BF3CBE186DF",
-    "isEnabled" : true,
-    "sortOrder" : 0,
-    "source" : {
-      "traktBuiltIn" : {
-        "_0" : "airing_this_week"
+    "id": "7A66880D-C08F-4EE3-ADDD-2BF3CBE186DF",
+    "isEnabled": true,
+    "sortOrder": 0,
+    "source": {
+      "traktBuiltIn": {
+        "_0": "airing_this_week"
       }
     },
-    "style" : "row_classic",
-    "title" : "Airing This Week"
+    "style": "row_classic",
+    "title": "Airing This Week"
   },
   {
-    "id" : "BBBECEA9-B281-4B28-A9C5-CF9D651F96A5",
-    "isEnabled" : true,
-    "sortOrder" : 1,
-    "source" : {
-      "traktBuiltIn" : {
-        "_0" : "watchlist"
+    "id": "BBBECEA9-B281-4B28-A9C5-CF9D651F96A5",
+    "isEnabled": true,
+    "sortOrder": 1,
+    "source": {
+      "traktBuiltIn": {
+        "_0": "watchlist"
       }
     },
-    "style" : "row_classic",
-    "title" : "Watchlist"
+    "style": "row_classic",
+    "title": "Watchlist"
   },
   {
-    "id" : "F2694AB3-C044-4236-9642-6D366600F232",
-    "isEnabled" : true,
-    "sortOrder" : 2,
-    "source" : {
-      "traktList" : {
-        "_0" : {
-          "isPublic" : true,
-          "itemCount" : 7,
-          "listId" : "20388873",
-          "listName" : "Top Movies of the week",
-          "listSlug" : "top-movies-of-the-week",
-          "username" : "garycrawfordgc"
+    "id": "F2694AB3-C044-4236-9642-6D366600F232",
+    "isEnabled": true,
+    "sortOrder": 2,
+    "source": {
+      "traktList": {
+        "_0": {
+          "isPublic": true,
+          "itemCount": 7,
+          "listId": "20388873",
+          "listName": "Top Movies of the week",
+          "listSlug": "top-movies-of-the-week",
+          "username": "garycrawfordgc"
         }
       }
     },
-    "style" : "row_numbered",
-    "title" : "Top Movies of the week"
+    "style": "row_numbered",
+    "title": "Top Movies of the week"
   },
   {
-    "id" : "5762F294-AA09-42AB-BD04-F73AEFFB3B1E",
-    "isEnabled" : true,
-    "sortOrder" : 3,
-    "source" : {
-      "traktBuiltIn" : {
-        "_0" : "recommended_movies"
+    "id": "5762F294-AA09-42AB-BD04-F73AEFFB3B1E",
+    "isEnabled": true,
+    "sortOrder": 3,
+    "source": {
+      "traktBuiltIn": {
+        "_0": "recommended_movies"
       }
     },
-    "style" : "row_classic",
-    "title" : "Recommended Movies"
+    "style": "row_classic",
+    "title": "Recommended Movies"
   },
   {
-    "id" : "9553366C-4A17-46ED-A77C-44A04A531866",
-    "isEnabled" : true,
-    "sortOrder" : 4,
-    "source" : {
-      "traktBuiltIn" : {
-        "_0" : "recommended_shows"
+    "id": "9553366C-4A17-46ED-A77C-44A04A531866",
+    "isEnabled": true,
+    "sortOrder": 4,
+    "source": {
+      "traktBuiltIn": {
+        "_0": "recommended_shows"
       }
     },
-    "style" : "row_classic",
-    "title" : "Recommended Shows"
+    "style": "row_classic",
+    "title": "Recommended Shows"
   },
   {
-    "id" : "9211CF97-686A-4B66-A393-FBA7474EE809",
-    "isEnabled" : true,
-    "sortOrder" : 5,
-    "source" : {
-      "tmdbCatalog" : {
-        "_0" : "tmdb_now_playing"
+    "id": "9211CF97-686A-4B66-A393-FBA7474EE809",
+    "isEnabled": true,
+    "sortOrder": 5,
+    "source": {
+      "tmdbCatalog": {
+        "_0": "tmdb_now_playing"
       }
     },
-    "style" : "row_classic",
-    "title" : "In The Cinemas"
+    "style": "row_classic",
+    "title": "In The Cinemas"
   },
   {
-    "id" : "2B5825BA-AC4E-4870-A400-50804AF6D020",
-    "isEnabled" : true,
-    "sortOrder" : 6,
-    "source" : {
-      "group" : {
-        "_0" : {
-          "contentSources" : [
+    "id": "2B5825BA-AC4E-4870-A400-50804AF6D020",
+    "isEnabled": true,
+    "sortOrder": 6,
+    "source": {
+      "group": {
+        "_0": {
+          "contentSources": [
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/netflix.png",
-              "hideTitle" : true,
-              "id" : "E66F28D3-9508-403F-9553-84B3908BB74B",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30828956", "listName" : "Netflix Movies", "listSlug" : "netflix-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30828975", "listName" : "Netflix Shows", "listSlug" : "netflix-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/netflix.png",
+              "hideTitle": true,
+              "id": "E66F28D3-9508-403F-9553-84B3908BB74B",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30828956",
+                      "listName": "Netflix Movies",
+                      "listSlug": "netflix-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30828975",
+                      "listName": "Netflix Shows",
+                      "listSlug": "netflix-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Netflix"
+              "tileShape": "square",
+              "title": "Netflix"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/max.png",
-              "hideTitle" : true,
-              "id" : "33EF6F9E-9E7A-40B9-945A-803E4364E713",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30828916", "listName" : "Max Movies", "listSlug" : "max-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 199, "listId" : "30828923", "listName" : "Max Shows", "listSlug" : "max-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/max.png",
+              "hideTitle": true,
+              "id": "33EF6F9E-9E7A-40B9-945A-803E4364E713",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30828916",
+                      "listName": "Max Movies",
+                      "listSlug": "max-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 199,
+                      "listId": "30828923",
+                      "listName": "Max Shows",
+                      "listSlug": "max-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Max"
+              "tileShape": "square",
+              "title": "Max"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/disney.png",
-              "hideTitle" : true,
-              "id" : "0F82CB78-C9E5-4B58-A77B-2F5E91598C63",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30828895", "listName" : "Disney+ Movies", "listSlug" : "disney-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 199, "listId" : "30828903", "listName" : "Disney+ Shows", "listSlug" : "disney-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/disney.png",
+              "hideTitle": true,
+              "id": "0F82CB78-C9E5-4B58-A77B-2F5E91598C63",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30828895",
+                      "listName": "Disney+ Movies",
+                      "listSlug": "disney-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 199,
+                      "listId": "30828903",
+                      "listName": "Disney+ Shows",
+                      "listSlug": "disney-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Disney+"
+              "tileShape": "square",
+              "title": "Disney+"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/appletv.png",
-              "hideTitle" : true,
-              "id" : "7CA7976F-AA18-44A3-95AC-8A9E5C62C134",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 105, "listId" : "30828825", "listName" : "Apple+ Movies", "listSlug" : "apple-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 188, "listId" : "30828834", "listName" : "Apple+ Shows", "listSlug" : "apple-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/appletv.png",
+              "hideTitle": true,
+              "id": "7CA7976F-AA18-44A3-95AC-8A9E5C62C134",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 105,
+                      "listId": "30828825",
+                      "listName": "Apple+ Movies",
+                      "listSlug": "apple-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 188,
+                      "listId": "30828834",
+                      "listName": "Apple+ Shows",
+                      "listSlug": "apple-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Apple TV+"
+              "tileShape": "square",
+              "title": "Apple TV+"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/hulu.png",
-              "hideTitle" : true,
-              "id" : "2A076A0F-583B-441C-92B3-6FA636F93EB6",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30828935", "listName" : "Hulu Movies", "listSlug" : "hulu-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 199, "listId" : "30828945", "listName" : "Hulu Shows", "listSlug" : "hulu-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/hulu.png",
+              "hideTitle": true,
+              "id": "2A076A0F-583B-441C-92B3-6FA636F93EB6",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30828935",
+                      "listName": "Hulu Movies",
+                      "listSlug": "hulu-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 199,
+                      "listId": "30828945",
+                      "listName": "Hulu Shows",
+                      "listSlug": "hulu-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Hulu"
+              "tileShape": "square",
+              "title": "Hulu"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/paramount.png",
-              "hideTitle" : true,
-              "id" : "1339881A-0060-45FA-9103-E7AC2E35B075",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 199, "listId" : "30828986", "listName" : "Paramount+ Movies", "listSlug" : "paramount-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 123, "listId" : "30828993", "listName" : "Paramount+ Shows", "listSlug" : "paramount-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/paramount.png",
+              "hideTitle": true,
+              "id": "1339881A-0060-45FA-9103-E7AC2E35B075",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 199,
+                      "listId": "30828986",
+                      "listName": "Paramount+ Movies",
+                      "listSlug": "paramount-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 123,
+                      "listId": "30828993",
+                      "listName": "Paramount+ Shows",
+                      "listSlug": "paramount-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Paramount+"
+              "tileShape": "square",
+              "title": "Paramount+"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/primevideo.png",
-              "hideTitle" : true,
-              "id" : "A8D24881-AB7B-4086-BCEB-176444E52C55",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30829008", "listName" : "Prime Movies", "listSlug" : "prime-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30829011", "listName" : "Prime Shows", "listSlug" : "prime-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/primevideo.png",
+              "hideTitle": true,
+              "id": "A8D24881-AB7B-4086-BCEB-176444E52C55",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30829008",
+                      "listName": "Prime Movies",
+                      "listSlug": "prime-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30829011",
+                      "listName": "Prime Shows",
+                      "listSlug": "prime-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Prime Video"
+              "tileShape": "square",
+              "title": "Prime Video"
             },
             {
-              "coverImageURL" : "https://files.orangebyte.io/resources/omni/images/groups/peacock.png",
-              "hideTitle" : true,
-              "id" : "284E6926-8883-4A67-AA4B-13699B349C9D",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 200, "listId" : "30504299", "listName" : "Peacock Movies", "listSlug" : "peacock-movies", "username" : "tvgeniekodi" } } },
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 108, "listId" : "30504294", "listName" : "Peacock Shows", "listSlug" : "peacock-shows", "username" : "tvgeniekodi" } } }
+              "coverImageURL": "https://files.orangebyte.io/resources/omni/images/groups/peacock.png",
+              "hideTitle": true,
+              "id": "284E6926-8883-4A67-AA4B-13699B349C9D",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 200,
+                      "listId": "30504299",
+                      "listName": "Peacock Movies",
+                      "listSlug": "peacock-movies",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                },
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 108,
+                      "listId": "30504294",
+                      "listName": "Peacock Shows",
+                      "listSlug": "peacock-shows",
+                      "username": "tvgeniekodi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "square",
-              "title" : "Peacock"
+              "tileShape": "square",
+              "title": "Peacock"
             }
           ],
-          "hideTitle" : false,
-          "tileShape" : "poster",
-          "title" : "Streaming"
+          "hideTitle": false,
+          "tileShape": "poster",
+          "title": "Streaming"
         }
       }
     },
-    "style" : "collections_row",
-    "title" : "Streaming"
+    "style": "collections_row",
+    "title": "Streaming"
   },
   {
-    "id" : "BDB06908-20C1-4432-A103-DA9A10FF2BAE",
-    "isEnabled" : true,
-    "sortOrder" : 7,
-    "source" : {
-      "group" : {
-        "_0" : {
-          "contentSources" : [
+    "id": "BDB06908-20C1-4432-A103-DA9A10FF2BAE",
+    "isEnabled": true,
+    "sortOrder": 7,
+    "source": {
+      "group": {
+        "_0": {
+          "contentSources": [
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-007.png",
-              "hideTitle" : true,
-              "id" : "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "31788775", "listName" : "James Bond", "listSlug" : "james-bond", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-007.png",
+              "hideTitle": true,
+              "id": "E2EEC0FC-29C0-4D71-9975-ADA177E1F4FB",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "31788775",
+                      "listName": "James Bond",
+                      "listSlug": "james-bond",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "007"
+              "tileShape": "poster",
+              "title": "007"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-alien.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0001-0000-0000-000000000001",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "31821017", "listName" : "Alien", "listSlug" : "alien", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-alien.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0001-0000-0000-000000000001",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "31821017",
+                      "listName": "Alien",
+                      "listSlug": "alien",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Alien"
+              "tileShape": "poster",
+              "title": "Alien"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-avatar.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0002-0000-0000-000000000002",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "33744778", "listName" : "Avatar", "listSlug" : "avatar", "username" : "Kirky62" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-avatar.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0002-0000-0000-000000000002",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "33744778",
+                      "listName": "Avatar",
+                      "listSlug": "avatar",
+                      "username": "Kirky62"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Avatar"
+              "tileShape": "poster",
+              "title": "Avatar"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-back-to-the-future.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0003-0000-0000-000000000003",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32199686", "listName" : "Back to the Future", "listSlug" : "back-to-the-future", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-back-to-the-future.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0003-0000-0000-000000000003",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32199686",
+                      "listName": "Back to the Future",
+                      "listSlug": "back-to-the-future",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Back to the Future"
+              "tileShape": "poster",
+              "title": "Back to the Future"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-blade-runner.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0004-0000-0000-000000000004",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32424045", "listName" : "Blade Runner (Chronological)", "listSlug" : "blade-runner-chronological", "username" : "furglitch" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-blade-runner.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0004-0000-0000-000000000004",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32424045",
+                      "listName": "Blade Runner (Chronological)",
+                      "listSlug": "blade-runner-chronological",
+                      "username": "furglitch"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Blade Runner"
+              "tileShape": "poster",
+              "title": "Blade Runner"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-conjuring.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0005-0000-0000-000000000005",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "31878663", "listName" : "The Conjuring Universe", "listSlug" : "the-conjuring-universe", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-conjuring.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0005-0000-0000-000000000005",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "31878663",
+                      "listName": "The Conjuring Universe",
+                      "listSlug": "the-conjuring-universe",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Conjuring"
+              "tileShape": "poster",
+              "title": "Conjuring"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-creed.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0006-0000-0000-000000000006",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "26737471", "listName" : "Creed", "listSlug" : "creed", "username" : "MadMax2004" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-creed.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0006-0000-0000-000000000006",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "26737471",
+                      "listName": "Creed",
+                      "listSlug": "creed",
+                      "username": "MadMax2004"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Creed"
+              "tileShape": "poster",
+              "title": "Creed"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-dc-comics.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0007-0000-0000-000000000007",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "3989015", "listName" : "DC Movies", "listSlug" : "dc-movies", "username" : "AraChn0id" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-dc-comics.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0007-0000-0000-000000000007",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "3989015",
+                      "listName": "DC Movies",
+                      "listSlug": "dc-movies",
+                      "username": "AraChn0id"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "DC Comics"
+              "tileShape": "poster",
+              "title": "DC Comics"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-dune.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0008-0000-0000-000000000008",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32517134", "listName" : "dune", "listSlug" : "dune", "username" : "pjohnston1" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-dune.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0008-0000-0000-000000000008",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32517134",
+                      "listName": "dune",
+                      "listSlug": "dune",
+                      "username": "pjohnston1"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Dune"
+              "tileShape": "poster",
+              "title": "Dune"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-expendables.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0009-0000-0000-000000000009",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32347354", "listName" : "The Expendables", "listSlug" : "the-expendables", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-expendables.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0009-0000-0000-000000000009",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32347354",
+                      "listName": "The Expendables",
+                      "listSlug": "the-expendables",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "The Expendables"
+              "tileShape": "poster",
+              "title": "The Expendables"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-fast-furious.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000A-0000-0000-00000000000A",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "11362509", "listName" : "The Fast & Furious Universe", "listSlug" : "the-fast-furious-universe", "username" : "mri8879" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-fast-furious.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000A-0000-0000-00000000000A",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "11362509",
+                      "listName": "The Fast & Furious Universe",
+                      "listSlug": "the-fast-furious-universe",
+                      "username": "mri8879"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Fast & Furious"
+              "tileShape": "poster",
+              "title": "Fast & Furious"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-ghostbusters.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000B-0000-0000-00000000000B",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "21798668", "listName" : "Ghostbusters", "listSlug" : "ghostbusters", "username" : "silvol" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-ghostbusters.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000B-0000-0000-00000000000B",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "21798668",
+                      "listName": "Ghostbusters",
+                      "listSlug": "ghostbusters",
+                      "username": "silvol"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Ghostbusters"
+              "tileShape": "poster",
+              "title": "Ghostbusters"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-godfather.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000C-0000-0000-00000000000C",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32382561", "listName" : "The Godfather Collection", "listSlug" : "the-godfather-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-godfather.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000C-0000-0000-00000000000C",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32382561",
+                      "listName": "The Godfather Collection",
+                      "listSlug": "the-godfather-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "The Godfather"
+              "tileShape": "poster",
+              "title": "The Godfather"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-harry-potter.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000D-0000-0000-00000000000D",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32378710", "listName" : "Harry Potter Collection", "listSlug" : "harry-potter-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-harry-potter.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000D-0000-0000-00000000000D",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32378710",
+                      "listName": "Harry Potter Collection",
+                      "listSlug": "harry-potter-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Harry Potter"
+              "tileShape": "poster",
+              "title": "Harry Potter"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-indiana-jones.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000E-0000-0000-00000000000E",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32382610", "listName" : "Indiana Jones Collection", "listSlug" : "indiana-jones-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-indiana-jones.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000E-0000-0000-00000000000E",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32382610",
+                      "listName": "Indiana Jones Collection",
+                      "listSlug": "indiana-jones-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Indiana Jones"
+              "tileShape": "poster",
+              "title": "Indiana Jones"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-john-wick.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-000F-0000-0000-00000000000F",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32382577", "listName" : "John Wick Collection", "listSlug" : "john-wick-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-john-wick.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-000F-0000-0000-00000000000F",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32382577",
+                      "listName": "John Wick Collection",
+                      "listSlug": "john-wick-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "John Wick"
+              "tileShape": "poster",
+              "title": "John Wick"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-jurassic-park.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0010-0000-0000-000000000010",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32378934", "listName" : "Jurassic Park Collection", "listSlug" : "jurassic-park-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-jurassic-park.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0010-0000-0000-000000000010",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32378934",
+                      "listName": "Jurassic Park Collection",
+                      "listSlug": "jurassic-park-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Jurassic Park"
+              "tileShape": "poster",
+              "title": "Jurassic Park"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-marvel.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0011-0000-0000-000000000011",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32377421", "listName" : "Marvel Cinematic Universe", "listSlug" : "marvel-cinematic-universe", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-marvel.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0011-0000-0000-000000000011",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32377421",
+                      "listName": "Marvel Cinematic Universe",
+                      "listSlug": "marvel-cinematic-universe",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Marvel"
+              "tileShape": "poster",
+              "title": "Marvel"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-matrix.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0012-0000-0000-000000000012",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "24891175", "listName" : "Matrix", "listSlug" : "matrix", "username" : "sjmarsenal85" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-matrix.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0012-0000-0000-000000000012",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "24891175",
+                      "listName": "Matrix",
+                      "listSlug": "matrix",
+                      "username": "sjmarsenal85"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Matrix"
+              "tileShape": "poster",
+              "title": "Matrix"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-mission-impossible.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0013-0000-0000-000000000013",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32378615", "listName" : "Mission Impossible Collection", "listSlug" : "mission-impossible-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-mission-impossible.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0013-0000-0000-000000000013",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32378615",
+                      "listName": "Mission Impossible Collection",
+                      "listSlug": "mission-impossible-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Mission Impossible"
+              "tileShape": "poster",
+              "title": "Mission Impossible"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-pirates-of-the-caribbean.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0014-0000-0000-000000000014",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32377354", "listName" : "Pirates of the Caribbean Collection", "listSlug" : "pirates-of-the-caribbean-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-pirates-of-the-caribbean.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0014-0000-0000-000000000014",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32377354",
+                      "listName": "Pirates of the Caribbean Collection",
+                      "listSlug": "pirates-of-the-caribbean-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Pirates of the Caribbean"
+              "tileShape": "poster",
+              "title": "Pirates of the Caribbean"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-planet-of-the-apes.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0015-0000-0000-000000000015",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32377380", "listName" : "Planet of the Apes (Reboot)", "listSlug" : "planet-of-the-apes-reboot", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-planet-of-the-apes.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0015-0000-0000-000000000015",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32377380",
+                      "listName": "Planet of the Apes (Reboot)",
+                      "listSlug": "planet-of-the-apes-reboot",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Planet of the Apes"
+              "tileShape": "poster",
+              "title": "Planet of the Apes"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-rambo.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0016-0000-0000-000000000016",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "33133854", "listName" : "Rambo Collection", "listSlug" : "rambo-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-rambo.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0016-0000-0000-000000000016",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "33133854",
+                      "listName": "Rambo Collection",
+                      "listSlug": "rambo-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Rambo"
+              "tileShape": "poster",
+              "title": "Rambo"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-rocky.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0017-0000-0000-000000000017",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32402568", "listName" : "Rocky Collection", "listSlug" : "rocky-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-rocky.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0017-0000-0000-000000000017",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32402568",
+                      "listName": "Rocky Collection",
+                      "listSlug": "rocky-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Rocky"
+              "tileShape": "poster",
+              "title": "Rocky"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-scooby-doo.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0018-0000-0000-000000000018",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32416411", "listName" : "scooby doo", "listSlug" : "scooby-doo", "username" : "anj_anj_anj" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-scooby-doo.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0018-0000-0000-000000000018",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32416411",
+                      "listName": "scooby doo",
+                      "listSlug": "scooby-doo",
+                      "username": "anj_anj_anj"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Scooby-Doo"
+              "tileShape": "poster",
+              "title": "Scooby-Doo"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-star-trek.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-0019-0000-0000-000000000019",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "30613386", "listName" : "Star Trek (Theatrical Movie Releases)", "listSlug" : "star-trek-theatrical-movie-releases", "username" : "arose1" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-star-trek.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-0019-0000-0000-000000000019",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "30613386",
+                      "listName": "Star Trek (Theatrical Movie Releases)",
+                      "listSlug": "star-trek-theatrical-movie-releases",
+                      "username": "arose1"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Star Trek"
+              "tileShape": "poster",
+              "title": "Star Trek"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-star-wars.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-001A-0000-0000-00000000001A",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32379017", "listName" : "Star Wars Collection", "listSlug" : "star-wars-collection", "username" : "vanbushi" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-star-wars.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-001A-0000-0000-00000000001A",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32379017",
+                      "listName": "Star Wars Collection",
+                      "listSlug": "star-wars-collection",
+                      "username": "vanbushi"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Star Wars"
+              "tileShape": "poster",
+              "title": "Star Wars"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-the-hunger-games.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-001B-0000-0000-00000000001B",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32376949", "listName" : "The Hunger Games", "listSlug" : "the-hunger-games", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-the-hunger-games.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-001B-0000-0000-00000000001B",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32376949",
+                      "listName": "The Hunger Games",
+                      "listSlug": "the-hunger-games",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "The Hunger Games"
+              "tileShape": "poster",
+              "title": "The Hunger Games"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-the-lord-of-the-rings.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-001C-0000-0000-00000000001C",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "32242000", "listName" : "Middle Earth", "listSlug" : "middle-earth", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-the-lord-of-the-rings.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-001C-0000-0000-00000000001C",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "32242000",
+                      "listName": "Middle Earth",
+                      "listSlug": "middle-earth",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "The Lord of the Rings"
+              "tileShape": "poster",
+              "title": "The Lord of the Rings"
             },
             {
-              "coverImageURL" : "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-transformers.png",
-              "hideTitle" : true,
-              "id" : "A1B2C3D4-001D-0000-0000-00000000001D",
-              "sources" : [
-                { "traktList" : { "_0" : { "isPublic" : true, "itemCount" : 0, "listId" : "31815595", "listName" : "Transformers", "listSlug" : "transformers", "username" : "drjenkins" } } }
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/collections/collection-transformers.png",
+              "hideTitle": true,
+              "id": "A1B2C3D4-001D-0000-0000-00000000001D",
+              "sources": [
+                {
+                  "traktList": {
+                    "_0": {
+                      "isPublic": true,
+                      "itemCount": 0,
+                      "listId": "31815595",
+                      "listName": "Transformers",
+                      "listSlug": "transformers",
+                      "username": "drjenkins"
+                    }
+                  }
+                }
               ],
-              "tileShape" : "poster",
-              "title" : "Transformers"
+              "tileShape": "poster",
+              "title": "Transformers"
             }
           ],
-          "hideTitle" : true,
-          "tileShape" : "poster",
-          "title" : "Movie Collections"
+          "hideTitle": true,
+          "tileShape": "poster",
+          "title": "Movie Collections"
         }
       }
     },
-    "style" : "collections_row",
-    "title" : "Movie Collections"
+    "style": "collections_row",
+    "title": "Movie Collections"
+  },
+  {
+    "id": "0CFD7CE7-474F-452C-ACAA-DA2E86AAF952",
+    "isEnabled": true,
+    "sortOrder": 8,
+    "source": {
+      "group": {
+        "_0": {
+          "contentSources": [
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-action.png",
+              "hideTitle": true,
+              "id": "5957C268-AE11-4674-907E-B941F32FDB5F",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Action"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-adventure.png",
+              "hideTitle": true,
+              "id": "51B10014-8655-4100-98C8-4BD8105E46B1",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Adventure"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-animation.png",
+              "hideTitle": true,
+              "id": "CCA8F6B6-C512-4905-B645-36801B92C956",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Animation"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-comedy.png",
+              "hideTitle": true,
+              "id": "3F470D1E-D13F-48E0-9EA9-2C574B0A89E5",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Comedy"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-crime.png",
+              "hideTitle": true,
+              "id": "827B7533-7E17-43D2-8DB0-4A6B70D5255F",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Crime"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-documentary.png",
+              "hideTitle": true,
+              "id": "157FF8B5-89AB-4A04-860D-6D49C7608D9A",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Documentary"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-drama.png",
+              "hideTitle": true,
+              "id": "A5842615-150A-4DB5-8D18-B9347992E2CD",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Drama"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-fantasy.png",
+              "hideTitle": true,
+              "id": "0E6D0A82-0260-445D-AFA6-51DFF5E379FE",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Fantasy"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-historical.png",
+              "hideTitle": true,
+              "id": "8E74587E-6432-44CF-A707-E4D139D345D6",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Historical"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-horror.png",
+              "hideTitle": true,
+              "id": "4E4D4CD6-11D4-4ABD-A7EE-58B7BB6604FA",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Horror"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-kids.png",
+              "hideTitle": true,
+              "id": "972CBEAE-E696-48A7-8026-C9DD0DE800EF",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Kids"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-mystery.png",
+              "hideTitle": true,
+              "id": "2143655B-8548-41A9-80F6-8AB364C0C986",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Mystery"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-romance.png",
+              "hideTitle": true,
+              "id": "6BBAECA8-84CC-4B04-A22A-D97A7605679D",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Romance"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-sci-fi.png",
+              "hideTitle": true,
+              "id": "9EB172A0-C114-40EA-AC97-16703A89BC22",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Sci-Fi"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-thriller.png",
+              "hideTitle": true,
+              "id": "1389E917-9283-4A74-8A27-A9698301F0A7",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Thriller"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-war.png",
+              "hideTitle": true,
+              "id": "9673307B-CAD1-4206-9E7A-25AF8217DADC",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "War"
+            },
+            {
+              "coverImageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/posters/genres/genre-western.png",
+              "hideTitle": true,
+              "id": "4C0E8B84-F574-4FCD-BCD1-6099B15C4C03",
+              "sources": [],
+              "tileShape": "poster",
+              "title": "Western"
+            }
+          ],
+          "hideTitle": true,
+          "tileShape": "poster",
+          "title": "Movie Genres"
+        }
+      }
+    },
+    "style": "collections_row",
+    "title": "Movie Genres"
   }
 ]
