@@ -1,0 +1,9 @@
+[
+  {"name": "imdb", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/IMDB.png"},
+  {"name": "tomatometer", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/Tomatometer.png"},
+  {"name": "popcornmeter", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/Popcornmeter.png"},
+  {"name": "metacritic", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/Metacritic.png"},
+  {"name": "letterboxd", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/Letterboxd.png"},
+  {"name": "trakt", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/Trakt.png"},
+  {"name": "tmdb", "url": "https://raw.githubusercontent.com/lpierpoint/strand-assets/main/icons/TMDB.png"}
+]
